@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyframes&animations</title>
+</head>
+<style>
+.container{
+    /*display: flex;*/
+    background-color: greenyellow;
+    
+}
+.box{
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    /*animation-name: raji;
+    animation-duration: 5s;
+   /* animation-iteration-count: 13;*/
+    animation-iteration-count: 3;
+    /*animation-fill-mode: forwards;*/
+    /*animation-fill-mode: alternate;*/
+    /*animation-timing-function: ease-in;
+    animation-timing-function: ease-out;*/
+    /*animation-timing-function: ease-in-out;*/
+    /*animation-delay: 3s;*/
+    /*animation-direction: alternate;*/
+    /*animation-direction: reverse;*/
+    animation-name: raji1;
+    animation-duration: 3s;
+    /*animation-fill-mode: alternate;
+    animation-direction: reverse;*/
+    /*these properties can be set using this shorthand*/
+    /* animation:animation-name animation-duration animation-iteration-count  animation-fill-mode
+    animation-timining-function animation-delay*/
+    animation:raji 2s 12 alternate ease-in-out  1s;
+
+
+    
+}
+@keyframes raji1{
+    0%{
+top: 0px;
+left: 0px;
+    }
+    25%{
+top: 250px;
+left: 0px;
+    }
+    75%{
+top: 250px;
+left: 250px;
+    }
+    100%{
+top: 0px;
+left:250px;
+    }
+}
+@keyframes raji{
+    from{
+        width: 200px;
+
+    }
+    to{
+        width: 400px;
+
+    }
+}
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+            this is a box
+            
+        </div>
+    </div>
+    
+</body>
+</html>

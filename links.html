@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo selectors and mode designing</title>
+    <style>
+.container{
+    border: 2px solid red;
+    background-color: darkseagreen;
+    padding: 34px;
+    margin: 34px auto;
+    width: 666px;
+}
+.a{
+    text-decoration: none;
+    background-color: rgb(197, 119, 24);
+}
+a:hover{
+    color: rgb(218, 108, 108);
+    background-color: rgb(128, 193, 230);
+}
+a:visited{
+    background-color: yellow;
+
+}
+a:active{
+    background-color: darkblue;
+}
+.btn{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: crimson;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 4px;
+}
+.btn:hover{
+    color: darkgoldenrod;
+    background-color: rgb(218, 108, 108);
+    border: 2px solid black;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>this is my heading </h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero exercitationem
+             repellat ex officia quas officiis laudantium dignissimos aliquid expedita quasi 
+             architecto placeattempore voluptatibus maxime veritatis earum, facilis reprehenderit error.</p>
+             <a href="https://googgle.com" class="btn">read more</a>
+             <button class="btn">Contact us</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layouts</title>
+    <style>
+.container{
+display:grid;
+grid-template-areas: ;
+grid-gap:1rem;
+'navbar navbar navbar navbar'
+'section section section aside';
+}
+.item{
+    background-color: yellow;
+    border: 3px solid black;
+}
+#navbar{
+grid-area: navbar;
+}
+#section{
+grid-area: section;
+}
+#aside{
+grid-area:aside;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="navbar" class="item">
+        Home About Contact Us
+    </div>
+        <div id="section" class="item">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi culpa provident repellat recusandae? 
+        Aut nesciunt necessitatibus dolores quia ut veritatis similique quibusdam tenetur.
+    </div>
+        <div id="aside" class="item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste laudantium similique, repellendus pariatur fugit veritatis harum, aliquid, facilis quo quisquam eligendi placeat obcaecati 
+            magni! Repellendus itaque dignissimos fugiat odio perferendis.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio repellendus
+             error delectus eos. Aliquid, fugiat ea fuga perferendis explicabo modi, voluptatem, 
+             minus consectetur
+             ducimus nostrum quo laboriosam iste nulla doloribus?
+        </div>
+
+        <!--<div class="item">items-1</div>
+        <div class="item">items-2</div>
+        <div class="item">items-3</div>
+        <div class="item">items-4</div>
+        <div class="item">items-5</div>
+        <div class="item">items-6</div>
+        <div class="item">items-7</div>
+        <div class="item">items-8</div>
+        <div class="item">items-9</div>
+        <div class="item">items-10</div>
+        <div class="item">items-11</div>
+        <div class="item">items-12</div>
+        <div class="item">items-13</div>
+        <div class="item">items-14</div>-->
+    </div>
+</body>
+</html>

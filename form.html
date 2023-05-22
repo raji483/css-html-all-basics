@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register </title>
+</head>
+<body>
+    <h1>Register form</h1>
+    <form >
+        <label >FirstName: <input type="text" name="First Name" placeholder="first name" required></label>
+        <label >LastName: <input type="text" name="Last Name" placeholder="Last name" required></label><br>
+        <label >male: <input type="radio" name="Gender" placeholder="male" required></label>
+        <label >female: <input type="radio" name="gender" placeholder="female" required></label>
+        <label >other: <input type="radio" name="gender" placeholder="other" required></label><br>
+        <label >Email: <input type="email" name="email" placeholder="your email" required></label>
+        <label >Password: <input type="password" name="password" placeholder="your password pattern=".{5,10} required title="please enter password of enter 5 to 10"></label><br>
+        <label for="">Birthday:</label>
+        <select id="birthday" name="month">
+            <option >Month</option>
+            <option >jan</option>
+            <option >feb</option>
+            <option >march</option>
+            <option >april</option>
+            </select>
+            <select id="birthday" name="day">
+                <option >Day</option>
+                <option >1</option>
+                <option >2</option>
+                <option >3</option>
+                <option >4</option>
+            </select>
+            <select name="birthday" id="year">
+                <option >year</option>
+                <option >1990</option>
+                <option >1991</option>
+                <option >1992</option>
+                <option >1993</option>
+                <option >1994</option>
+            </select>
+            <label >i agree to the terms and conditions <input type="checkbox" name="check"></label><br>
+            <input type="SUBMIT" name="submit">
+    </form>
+</body>
+</html>
